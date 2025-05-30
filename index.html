@@ -28,7 +28,7 @@
   </footer>
 
   <script>
-    fetch('articles.json')
+    fetch('https://raw.githubusercontent.com/chipchronicledev/data/refs/heads/main/articles.json')
       .then(res => res.json())
       .then(data => {
         const container = document.getElementById('articles');
